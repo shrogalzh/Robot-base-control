@@ -1,0 +1,93 @@
+body
+{
+   background-image: url('robot background.jpg');
+   background-size : auto;
+    direction: rtl;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+    padding: 100px;
+    float: left;
+
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px;
+}
+
+.forward{
+   height:auto;
+   width: auto;
+   background-color:beige;
+   font-family: arial;
+   font-size : 25px;
+   font-weight: bold;
+   box-shadow: 10px 10px 5px grey;
+   border-radius: 20px;
+   border: 4px solid lightblue;
+   cursor: pointer;
+}
+
+.right{
+	height:auto;
+   width: auto;
+	background-color:beige;
+	font-family: arial;
+	font-size : 25px;
+	font-weight: bold;
+   box-shadow: 10px 10px 5px grey;
+   border-radius: 20px;
+   border: 4px solid lightblue;
+   cursor: pointer;
+
+
+}
+
+.backward{
+   height:auto;
+   width: auto;
+   background-color:beige;
+   font-family: arial;
+   font-size : 25px;
+   font-weight: bold;
+   box-shadow: 10px 10px 5px grey;
+   border-radius: 20px;
+   border: 4px solid lightblue;
+   cursor: pointer;
+
+}
+
+
+.left{
+  height:auto;
+   width: auto;
+   background-color:beige;
+   font-family: arial;
+   font-size : 25px;
+   font-weight: bold;
+   box-shadow: 10px 10px 5px grey;
+   border-radius: 20px;
+   border: 4px solid lightblue;
+   cursor: pointer;
+}
+
+.stop{
+   height:auto;
+   width: 90%;
+   background-color:beige;
+   font-family: arial;
+   font-size : 25px;
+   color: red;
+   font-weight: bold;
+   box-shadow: 10px 10px 5px grey;
+   border-radius: 20px;
+   border: 4px solid lightblue;
+     cursor: pointer;
+
+}
+
